@@ -1,12 +1,12 @@
 // first create an object that holds 12 numbers (days in months)
-// Jan 1 1900 was a Monday [0] - every year preceding count up from here - for loop 
+// Jan 1 1900 was a Monday [0], Jan 2 1901 is Tuesday etc. - every year preceding count up from here - for loop 
 // do a check if it its a leap year or not 
 // first step should be to initialize the check 
 
 function countingSundays() {
 // sundayCount start at 0, and keep track of sundays
     let sundayCount = 0;
-// daysOfWeek where 0 is Sunday, but initialize at 1 for Tuesday
+// daysOfWeek where 0 is Sunday, but initialize at 2 for Tuesday Jan 1
     let daysOfWeek = 2;
 // daysInMoths keeps track of days in each month (respectively - with feb calc below)
     let daysInMonths = [31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
